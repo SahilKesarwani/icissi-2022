@@ -1,0 +1,8 @@
+num=int(input("Enter  a number"))
+st=''
+rem=0
+while(num>0):
+    rem=num%2
+    st=str(rem)+st
+    num=int(num/2)
+print("First Raw",st)
